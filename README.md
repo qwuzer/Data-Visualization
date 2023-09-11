@@ -1,2 +1,3 @@
 # Data Visualization
- NTNU course 
+ NTNU course for data visualization
+ Python / Matplotlib / Numpy
