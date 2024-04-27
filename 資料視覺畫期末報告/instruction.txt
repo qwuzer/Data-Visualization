@@ -1,0 +1,4 @@
+1. Open the files in vscode
+2. Open the main.html with live server
+
+

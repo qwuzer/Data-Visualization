@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<title>Example</title>
+	<style>
+		rect{
+			fill: green;
+		}
+
+		circle{
+			stroke: orange;
+			stroke-width: 3;
+		}
+	</style>
+</head>
+
+<body>
+	<svg width="1000" height="1000">
+		<path d="
+				M 100 500 
+				H 400
+				l 100 -200
+				Z
+
+				m 500 100 
+				l 0 200 
+				L 800 800
+				l 0 -200 
+				Z" 
+		fill="orange" stroke="black"/>
+	  </svg>
+
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+</body>
+</html>
+

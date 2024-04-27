@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "../Ex04-3"
+        },
+        {
+            "path": "../Ex04-4"
+        },
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "04_Scale"
+    }
+}

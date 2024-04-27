@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Age Distribution Histogram</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+	<div id="scatterTooltip" style="position: absolute; opacity: 0; pointer-events: none; background-color: white; border: solid 1px black; padding: 5px; z-index: 10;"></div>
+    <!-- Rest of your HTML content -->
+    <style>
+		.selected {
+		  fill: steelblue;
+		  stroke-width: 2;
+		}
+		.non-selected {
+			fill: none; /* No fill for non-selected bars */
+			stroke: steelblue; /* Stroke color to match original bars */
+			stroke-width: 1; /* Stroke width to make it noticeable */
+		}
+		.selected-NO{
+			fill: steelblue;
+		  	stroke-width: 2;
+		}
+	</style>
+    <script src="main.js"></script>
+</body>
+</html>
